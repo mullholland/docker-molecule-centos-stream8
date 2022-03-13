@@ -27,6 +27,7 @@ RUN yum -y install rpm centos-release dnf-plugins-core \
       hostname \
       procps-ng \
       ca-certificates \
+      iproute \
  && yum clean all
 
 # Disable requiretty.
